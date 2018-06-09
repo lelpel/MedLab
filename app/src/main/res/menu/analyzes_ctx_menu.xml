@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Поиск"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="Сортировка" app:showAsAction="never" >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:title="По ID" app:showAsAction="never">
+                <menu>
+                    <item android:title="По возрастанию" android:id="@+id/menuitem_sort_analyses_id_asc" app:showAsAction="never"/>
+                    <item android:title="По убыванию" android:id="@+id/menuitem_sort_analyses_id_desc" app:showAsAction="never"/>
+                </menu>
+            </item>
+
+            <item android:title="По дате" app:showAsAction="never">
+                <menu>
+                    <item android:title="По возрастанию" android:id="@+id/menuitem_sort_analyses_date_asc" app:showAsAction="never"/>
+                    <item android:title="По убыванию" android:id="@+id/menuitem_sort_analyses_date_desc" app:showAsAction="never"/>
+                </menu>
+            </item>
+            <item android:title="По виду" app:showAsAction="never">
+                <menu>
+                    <item android:title="По возрастанию" android:id="@+id/menuitem_sort_analyses_type_asc" app:showAsAction="never"/>
+                    <item android:title="По убыванию" android:id="@+id/menuitem_sort_analyses_type_desc" app:showAsAction="never"/>
+                </menu>
+            </item>
+        </menu>
+
+    </item>
+
+    <item android:title="Фильтры" app:showAsAction="never">
+        <menu>
+            <item android:title="Сбросить" android:id="@+id/menuitem_analyzes_unfliter" app:showAsAction="never"/>
+            <item android:title="По дате" app:showAsAction="never">
+                <menu>
+                    <item android:title="Ранее" android:id="@+id/menuitem_filter_analyses_date_lt" app:showAsAction="never"/>
+                    <item android:title="Позже" android:id="@+id/menuitem_filter_analyses_date_gt" app:showAsAction="never"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>

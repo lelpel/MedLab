@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MedLab</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+
+    <string name="add_analysis">Add analysis</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_ans_message">No analyzes yet</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_sort_asc">Sort asc</string>
+    <string name="action_sort_desc">Sort desc</string>
+    <string name="edit_analysis">Edit</string>
+    <string name="add_type">Add analysis type</string>
+    <string name="title_anals">Analyzes</string>
+    <string name="title_types">Types</string>
+    <string name="title_eq">Equipment</string>
+    <string name="title_reagents">Reagents</string>
+    <string name="title_staff">Staff</string>
+    <string name="add_eq">Add equipment</string>
+    <string name="title_types_long" translatable="false">Типы анализов</string>
+    <string name="Analyzes">Анализы</string>
+    <string name="equipment">Equipment</string>
+    <string name="add">Add</string>
+    <string name="reagents">Reagents</string>
+    <string name="datepicker_label_staff">Pick first day date</string>
+</resources>

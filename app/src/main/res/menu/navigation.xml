@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_analyzes"
+        android:icon="@drawable/ic_cards_variant_black_48dp"
+        android:title="@string/title_anals"/>
+
+    <item
+        android:id="@+id/nav_types"
+        android:icon="@drawable/ic_format_list_bulleted_type_black_48dp"
+        android:title="@string/title_types"/>
+
+    <item
+        android:id="@+id/nav_eq"
+        android:icon="@drawable/ic_medical_bag_black_48dp"
+        android:title="@string/title_eq"/>
+
+    <item
+        android:id="@+id/nav_reagents"
+        android:icon="@drawable/ic_test_tube_black_48dp"
+        android:title="@string/title_reagents"/>
+
+
+    <item
+        android:id="@+id/nav_staff"
+        android:icon="@drawable/account"
+        android:title="@string/title_staff"/>
+
+</menu>
